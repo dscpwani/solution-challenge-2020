@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/app_name">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="Introduction" />
+                <item
+                    android:id="@+id/nav_chlamydia"
+                    android:title="Chlamydia" />
+                <item
+                    android:id="@+id/nav_gonorrhea"
+                    android:title="Gonorrhea" />
+                <item
+                    android:id="@+id/nav_hiv"
+                    android:title="HIV" />
+                <item
+                    android:id="@+id/nav_hpv"
+                    android:title="HPV" />
+                <item
+                    android:id="@+id/nav_pubic_lice"
+                    android:title="Pubic Lice" />
+                <item
+                    android:id="@+id/nav_syphilis"
+                    android:title="Syphilis" />
+                <item
+                    android:id="@+id/nav_trichomoniasis"
+                    android:title="Trichomoniasis" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Sexual assault">
+        <menu>
+            <group>
+                <item android:id="@+id/nav_sexual_assault"
+                    android:title="Introduction"/>
+                <item android:id="@+id/nav_prevent_sexual_assault"
+                    android:title="Prevent sexual assault"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Peoples rights to health care services" android:id="@+id/nav_rights"/>
+
+    <item android:title="Dangers of early sex" android:id="@+id/nav_early_sex"/>
+
+</menu>
